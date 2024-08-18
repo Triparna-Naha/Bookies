@@ -1,0 +1,92 @@
+[
+  {
+    "id":1,
+    "name": "Shree Bhagavad Gita",
+    "title" :"Sri Prabhupada",
+    "price": 300,
+    "category" :"Free",
+    "image": "https://imgs.search.brave.com/p0W9k7SFsi06xQee8uAFa6CdwjUwGvvvRifTllOImXs/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMtbmEuc3NsLWlt/YWdlcy1hbWF6b24u/Y29tL2ltYWdlcy9J/LzkxbXNFYlRsZXRM/LmpwZw"
+    
+  },
+  {
+    "id":2,
+    "name": "Room on the Roof",
+    "title" :"Ruskin Bond",
+    "price": 275,
+    "category" : "Romance",
+    "image": "https://imgs.search.brave.com/MksrIO-5RyiXfwkG2V3q9Of8AcjdoczTlqNI9JYDPWc/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZG4u/cGVuZ3Vpbi5jby5p/bi93cC1jb250ZW50/L3VwbG9hZHMvMjAy/MS8xMi85NzgwMTQz/MzMzMzg4LmpwZw"
+    
+  },
+  {
+    "id":3,
+    "name": "Deadpool : Samurai",
+    "title" :"Kevin Feige",
+    "price": 9999,
+    "category" : "MARVEL",
+    "image": "https://imgs.search.brave.com/9DpF_UghVJArrxz0a0LWBQCTwQg8j3-NOFaZ8wPlgIU/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMtbmEuc3NsLWlt/YWdlcy1hbWF6b24u/Y29tL2ltYWdlcy9J/Lzgxb202N1BDSFpM/LmpwZw"
+    
+  },
+  {
+    "id":4,
+    "name": "Shutter Island",
+    "title" :"Leonardo Di Caprio",
+    "price": 4000,
+    "category" : "Thriller",
+    "image": "https://imgs.search.brave.com/A1_fMcIvdAjzKntlqZv74ffjf4nAw4oklItSP_gyJyw/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMuYm9va3NlbnNl/LmNvbS9pbWFnZXMv/OTMwLzA3Mi85Nzgw/MDYzMDcyOTMwLmpw/Zw"
+    
+  },
+  {
+    "id":5,
+    "name": "Interstellar",
+    "title" :"Christopher Nolan",
+    "price": 899,
+    "category" : "NASA",
+    "image": "https://imgs.search.brave.com/wlmz_kyQcUNZzTP3NSVFYFSU5IY2O84x1b4h04_7DTw/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMuYm9va3NlbnNl/LmNvbS9pbWFnZXMv/ODcxLzI1MC85Nzgw/MDYzMjUwODcxLmpw/Zw"
+    
+  },
+  {
+    "id":6,
+    "name": "BATMAN",
+    "title" :"Christian Bale",
+    "price": 7999,
+    "category" : "DC COMICS",
+    "image": "https://imgs.search.brave.com/3G_wrlhKEw1ayf9rmdx-jjt-A8xAKv4Kh7fbCtykPdM/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMtbmEuc3NsLWlt/YWdlcy1hbWF6b24u/Y29tL2ltYWdlcy9J/LzkxaWNBTlh4RG5M/LmpwZw"
+    
+  },
+  {
+    "id":7,
+    "name": "THE BOYS",
+    "title" :"Antony Starr",
+    "price": 4500,
+    "category" : "Politics",
+    "image": "https://imgs.search.brave.com/lua8vUp-2wCzgc5PqSbuoouf0IveXV3wj0rcZP8PqeU/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL0kv/NTFvbVBxWWh4V0wu/anBn"
+    
+  },
+  {
+    "id":8,
+    "name": "The Invisible Man",
+    "title" :"Alex Das",
+    "price": 599,
+    "category" : "Crime",
+    "image": "https://imgs.search.brave.com/ckHG5T0bwmhB8OqE22NiJE-BWl16zL3cmpxImedIFao/rs:fit:860:0:0:0/g:ce/aHR0cDovL3d3dy5i/b29rc2F0cnVlc3Rv/cnkuY29tL3dwLWNv/bnRlbnQvdXBsb2Fk/cy8yMDEzLzA4L1Ro/ZS1JbnZpc2libGUt/TWFuLmpwZw"
+    
+  },
+  {
+    "id":9,
+    "name": "Let me down slowly",
+    "title" :"Alec Benjamin",
+    "price": 999,
+    "category" : "Music",
+    "image": "https://imgs.search.brave.com/AxLsMdq0EpuFvAIvLJN2OeZX49p7oJXZr9b11p23o9I/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pMS5z/bmRjZG4uY29tL2Fy/dHdvcmtzLTAwMDM1/MjQ2MzI2OC01YmZu/eTgtdDUwMHg1MDAu/anBn"
+    
+  },
+  {
+    "id":10,
+    "name": "Adharam Madhuram",
+    "title" :"Jubin Nautiyal",
+    "price": 199,
+    "category" : "Bhajan",
+    "image": "https://imgs.search.brave.com/vFC4RYHrxiQxngAFxRWz21goed6AAlST8IwWHXH-Ew8/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9hMTAu/Z2FhbmFjZG4uY29t/L2duX3BsX2ltZy9w/bGF5bGlzdHMvRGs5/S05rMjNCeC9rOUtO/WDRxSldCL3NpemVf/bV8xNzE2NTU3MjUw/LmpwZw"
+    
+  }
+]
