@@ -1,15 +1,48 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, Navigate } from "react-router-dom";
 import Login from "./Login";
 import { useForm } from "react-hook-form";
+import { useNavigate } from "react-router-dom";
+import { useLocation } from "react-router-dom";
+import axios from "axios";
+import toast from "react-hot-toast";
 function Signup() {
+  const location = useLocation();
+  const navigate = useNavigate();
+  const from = location.state?.from?.pathname || "/";
   const {
     register,
     handleSubmit,
     formState: { errors },
   } = useForm();
+  const onSubmit = async (data) => {
+    try {
+      const userInfo = {
+        fullname: data.fullname,
+        email: data.email,
+        password: data.password,
+      };
 
-  const onSubmit = (data) => console.log(data);
+      const res = await axios.post(
+        "http://localhost:4001/user/signup",
+        userInfo
+      );
+
+      if (res.data) {
+        toast.success("Signup Successful");
+        //<Navigate to="\"/>
+        localStorage.setItem("Users", JSON.stringify(res.data.user));
+        navigate("/", { replace: true });
+      }
+    } catch (err) {
+      if (err.response && err.response.data && err.response.data.message) {
+        toast.error("Error: " + err.response.data.message);
+      } else {
+        toast.error("Signup failed. Please try again.");
+      }
+      console.error(err);
+    }
+  };
   return (
     <>
       <div className="flex h-screen items-center justify-center">
@@ -32,10 +65,10 @@ function Signup() {
                   type="text"
                   placeholder="Enter your full name"
                   className="w-80 px-3 py-1 border rounded-md outline-none"
-                  {...register("name", { required: true })}
+                  {...register("fullname", { required: true })}
                 />
                 <br />
-                {errors.name && (
+                {errors.fullname && (
                   <span className="text-sm text-red-500">Name is required</span>
                 )}
               </div>
