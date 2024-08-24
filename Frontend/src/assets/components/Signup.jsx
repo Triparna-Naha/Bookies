@@ -6,6 +6,8 @@ import { useNavigate } from "react-router-dom";
 import { useLocation } from "react-router-dom";
 import axios from "axios";
 import toast from "react-hot-toast";
+
+const BASE_URL = process.env.BASE_URL;
 function Signup() {
   const location = useLocation();
   const navigate = useNavigate();
@@ -23,10 +25,7 @@ function Signup() {
         password: data.password,
       };
 
-      const res = await axios.post(
-        "http://localhost:4001/user/signup",
-        userInfo
-      );
+      const res = await axios.post(`${BASE_URL}/user/signup`, userInfo);
 
       if (res.data) {
         toast.success("Signup Successful");
