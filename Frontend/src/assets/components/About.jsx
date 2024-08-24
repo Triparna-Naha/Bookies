@@ -4,7 +4,7 @@ function About() {
   return (
     <>
       <div>
-        <div class="bg-white py-24 sm:py-32 bg-purple-100">
+        <div class="py-24 sm:py-32 bg-purple-100">
           <div class="mx-auto max-w-7xl px-6 lg:px-8">
             <dl class="grid grid-cols-1 gap-x-8 gap-y-16 text-center lg:grid-cols-3">
               <div class="mx-auto flex max-w-xs flex-col gap-y-4">
@@ -80,7 +80,7 @@ function About() {
           <div class="bg-white p-4 rounded-lg shadow-md max-w-sm">
             <div class="flex items-center mb-4">
               <img
-                src="TnReview.jpg"
+                src="TnReview2.png"
                 alt="Customer Photo"
                 class="w-12 h-12 rounded-full object-cover mr-4"
               />

@@ -3,6 +3,7 @@ import Login from "./Login";
 import Logout from "./Logout";
 import { Link } from "react-router-dom";
 import { useAuth } from "../../context/AuthProvider";
+import bsi from "../../../public/BookstoreIcon.png";
 function Navbar() {
   const [authUser, setAuthUser] = useAuth();
   const [theme, setTheme] = useState(
@@ -37,6 +38,9 @@ function Navbar() {
   }, []);
   const navItems = (
     <>
+      {/* <li>
+        <img src={bsi} alt="" />
+      </li> */}
       <li>
         <a href="/">Home</a>
       </li>
@@ -54,7 +58,7 @@ function Navbar() {
   return (
     <>
       <div
-        className={`max-w-screen-2xl container mx-auto md:px-20 px-4   dark:bg-slate-900 dark:text-white fixed top-0 left-0 right-0 z-50
+        className={`max-w-screen-2xl container mx-auto md:px-20 px-4   dark:bg-slate-900 dark:text-white fixed top-0 left-0 right-0 z-50 hover:bg-pink-100
            ${
              sticky
                ? "sticky-navbar shadow-md bg-base-200 dark:bg-slate-600 dark:text-white duration-300 transition-all ease-in-out"
@@ -91,6 +95,11 @@ function Navbar() {
                 {navItems}
               </ul>
             </div>
+            <Link to="/">
+              <div className="mr-3 cursor-pointer">
+                <img src={bsi} className="  left-10 w-10 h-8" alt="" />
+              </div>
+            </Link>
             <Link to="/">
               <a className=" text-2xl font-bold cursor-pointer">BookStore</a>
             </Link>
